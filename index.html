@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-custom-teal d-flex align-items-center justify-content-center vh-100">
+    <section class="container d-flex flex-column flex-md-row align-items-center justify-content-center gap-5">
+
+        <div class="flex-shrink-1">
+            <div class="gradient"></div>
+            <div class="gradient-content">
+                <h2 class="text-center text-bold text-light"><span>Criativo Front-end :)</span></h2>
+                <img src="/img/astronauta.png" alt="Astronauta sentado em uma nuvem com balões planetários"
+                    class="img-fluid" style="max-width: 300px;">
+            </div>
+        </div>
+
+        <div class="form-section rounded border border-5 border-light p-4 mb-2" style="background-color: #F8F9FA;">
+            <h2>Inscreva-se na nossa <span>Newsletter</span>.</h2>
+            <p>E fique por dentro de todas as novidades do mundo da T.I e do Design</p>
+            <form>
+                <div class="form-group">
+                    <label for="to">Seu nome:</label>
+                    <input type="text" id="to" name="to" required autocomplete="off" placeholder="Seu nome aqui">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Seu melhor E-mail:</label>
+                    <input type="email" id="subject" name="subject" required autocomplete="off"
+                        placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Deixe uma mensagem: (opcional)</label>
+                    <textarea id="message" name="message" spellcheck="false" autocomplete="off"
+                        placeholder="Sua mensagem..."></textarea>
+                </div>
+                <div class="form-group result-container">
+                    <p class="result">Email sent successfully.</p>
+                    <button type="button" class="send-btn btn btn-outline-secondary" style="padding: 8px; width: 220px;">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

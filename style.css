@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+span {
+    color: #371A45;
+}
+
+h2 {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 8px;
+}
+.bg-custom-teal {
+    background-color: #155e63;
+}
+
+.bg-custom-orange {
+    background-color: #FFC8A9;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #945CC6;
+    color: #fff;
+}
+
+.result-container {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .result-container p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3461ca;
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+
+  .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .form-group label {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #16164d;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    font-size: 0.875rem;
+    font-weight: 500;
+    width: 100%;
+    color: hsl(240, 54%, 15%);
+    padding: 0.3rem;
+    border: 2px solid #ccc;
+    border-radius: 0.3rem;
+    outline: none;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: none;
+  }
+
+  .send-btn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #945CC6;
+  }
