@@ -103,7 +103,8 @@ landing-page-newsletter/
 |   ├── package.json            # Config do Bootstrap
 |   ├── script.js               # Lógica de envio de e-mails
 |   ├── style.css               # Estilização da página
-|   └── README.md               # Documentação do projeto (DESCREVA O QUE VOCÊ ALTEROU PARA QUE O PRÓXIMO DESENVOLVEDOR SABER O QUE PODE UTILIZAR EM UM PROJETO)
+|   └── README.md               # Documentação do projeto
+(DESCREVA O QUE VOCÊ ALTEROU (dentro do seu README.MD) PARA QUE O PRÓXIMO DESENVOLVEDOR SABER O QUE PODE UTILIZAR EM UM PROJETO)
 ```
 ## Se precisar de ajuda com algum ponto específico ou alteração, é só entrar em contato comigo! 😊
 
