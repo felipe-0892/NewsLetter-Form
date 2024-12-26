@@ -112,6 +112,6 @@ landing-page-newsletter/
 
 1. Clone este repositório:
    ```
-   
+   https://github.com/felipe-0892/NewsLetter-Form.git
    ```
    
